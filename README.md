@@ -20,7 +20,7 @@
 ## 目录
 
 ```
-SKILL.md                      主流程：输入契约 → 九步判盘 → 输出格式 → 判错红线
+SKILL.md                      主流程：输入契约 → 寻根基 → 七步判盘 → 输出格式 → 判错红线
 references/
   R0-版本与疑点.md            底本、原书自相矛盾清单、与常见流传本的三处硬分歧
   R1-理法基座.md              入手三步骤 / 宾主体用 / 功神废神 / 层功论加权
@@ -46,7 +46,7 @@ evals/                        可回归的断言集
 ### Claude Code / Codex / 任何支持 SKILL.md 的 agent
 
 ```bash
-git clone https://github.com/<you>/duanshi-lixiangxue-bazi.git
+git clone https://github.com/xxcvam/duanshi-lixiangxue-bazi.git
 mkdir -p ~/.claude/skills
 cp -r duanshi-lixiangxue-bazi ~/.claude/skills/
 ```
@@ -69,6 +69,6 @@ Copy-Item -Recurse .\duanshi-lixiangxue-bazi "$env:USERPROFILE\.claude\skills\"
 
 ## 版权
 
-规则条文为**重写**，非原文照录。所引节号对应段建业《盲派命理高级教程》与《段氏理象学》（中国商业出版社，2023）。短口诀属合理引用，原书正文不在本仓库内。
+规则条文为**重写**，非原文照录。所引节号对应段建业《盲派命理高级教程》与《段氏理象学》（中国商业出版社，2011）。短口诀属合理引用，原书正文不在本仓库内。
 
 本仓库代码与规则文本以 MIT 发布；「盲派命理」体系本身著作权归段建业及原出版方。
