@@ -1,6 +1,6 @@
 {
   "skill": "duanshi-lixiangxue-bazi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "note": "断言式回归。每条 = 一个用户输入 + 若干 must（必须说到）+ must_not（说到即扣分）。used_for 记录这条断言防的是哪类错。",
   "evals": [
     {
