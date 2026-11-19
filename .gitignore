@@ -1,0 +1,14 @@
+# 原始语料，不进仓库
+依据库原文/
+*.pdf
+_work/
+book_text/
+book_png/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+.venv/
